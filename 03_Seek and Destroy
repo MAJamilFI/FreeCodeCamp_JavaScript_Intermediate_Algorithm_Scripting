@@ -1,0 +1,17 @@
+function destroyer(arr) {
+
+  for(let i=0; i<arguments.length; i++){
+
+     arr = arr.filter((value) => value != arguments[i]);
+
+  }
+
+  return arr;
+}
+
+console.log(destroyer([3, 5, 1, 2, 2], 2, 3, 5));
+
+
+//Resources:
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
