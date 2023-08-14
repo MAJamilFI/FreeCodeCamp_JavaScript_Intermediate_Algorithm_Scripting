@@ -12,6 +12,9 @@ function destroyer(arr) {
 console.log(destroyer([3, 5, 1, 2, 2], 2, 3, 5));
 
 
+
+
 //Resources:
+//https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-seek-and-destroy/16046
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
